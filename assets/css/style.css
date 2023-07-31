@@ -473,10 +473,15 @@ h6 {
   transition: 0.3s;
   margin-right: 8px;
 }
+#hero .btn-watch-video:hover {
+    transition: 0.5s;
+    border: 0.1rem solid var(--main-green);
+} 
 
 #hero .btn-watch-video:hover i,
 #hero .btn-watch-video:hover span {
   color: var(--main-green);
+  transition: 0.5s;
 }
 
 #hero .animated {
