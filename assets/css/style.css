@@ -152,7 +152,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 4rem;
 }
 .middle-title {
   color: var(--main-red);
@@ -462,6 +462,8 @@ h6 {
   margin: 10px 0 0 25px;
   color: #fff;
   line-height: 1;
+  border: 0.1rem solid var(--main-blue);
+  padding: 1rem;
 }
 
 #hero .btn-watch-video i {
@@ -472,13 +474,15 @@ h6 {
   margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover i {
+#hero .btn-watch-video:hover i,
+#hero .btn-watch-video:hover span {
   color: var(--main-green);
 }
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
 .online-tag {
   color: var(--main-green);
 }
