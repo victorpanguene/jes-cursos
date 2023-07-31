@@ -474,9 +474,9 @@ h6 {
   margin-right: 8px;
 }
 #hero .btn-watch-video:hover {
-    transition: 0.5s;
-    border: 0.1rem solid var(--main-green);
-} 
+  transition: 0.5s;
+  border: 0.1rem solid var(--main-green);
+}
 
 #hero .btn-watch-video:hover i,
 #hero .btn-watch-video:hover span {
@@ -1705,7 +1705,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: var(--background-dark-blue);
 }
 
 #footer .footer-newsletter {
